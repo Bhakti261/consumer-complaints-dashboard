@@ -34,3 +34,43 @@ It enables users to:
 ---
 
 ## 📂 Project Structure
+📁 Consumer-Complaints-Dashboard
+├── app.py # Main Streamlit application
+├── Consumer_Complaints.xlsx # Dataset
+├── ConsumerComplaints_DataDictionary.csv # Data dictionary
+├── requirements.txt # Dependencies
+└── README.md # Project documentation
+
+## ⚙️ How to Run Locally
+1. **Clone this repository**
+   ```bash
+   git clone https://github.com/Bhakti261/consumer-complaints-dashboard.git
+   cd consumer-complaints-dashboard
+Install dependencies
+
+bash
+Copy code
+pip install -r requirements.txt
+Run the app
+
+bash
+Copy code
+streamlit run app.py
+Open the link in your browser:
+👉 http://localhost:8501
+
+📊 Dashboard Insights
+Complaints by Product: Top 10 financial products with the most complaints
+
+Complaints by State: Geographic distribution of consumer complaints
+
+Complaints Over Time: Monthly trend analysis
+
+Top Companies: Organizations with the highest number of complaints
+
+Correlation Heatmap: Relationships between numeric variables (if applicable)
+
+👩‍💻 Developer
+Bhakti Tambe
+📧 tambebhakti571@gmail.com
+🌐 GitHub Profile
